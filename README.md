@@ -1,8 +1,8 @@
 # Rebel
 
-##A Node.js form (or PHP if you like)
+## A Node.js form (or PHP if you like)
 
-###For Node:
+### For Node:
 
 1. Download the project
 2. Delete the package-lock.json
@@ -13,7 +13,7 @@
 
 Note: As you edit the files, the build will automatically re-build. You simply need to refresh very much like PHP. No live re-load on this.
 
-###For PHP:
+### For PHP:
 
 1. Download the project
 2. Put it in your htdocs folder
