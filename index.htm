@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>        
+        <title>Rebel Node.js Form</title>
+        <link href='http://localhost:8080/css' rel='stylesheet' text='text/css' />
+        <script src='http://localhost:8080/js'></script>
+    </head>
+    <body>
+        <form id='form'>
+            <fieldset>
+                <legend><h1>Contact Us</h1></legend>
+                <section>
+                    <label>Name:</label>
+                    <p><input type='text' id='iname' required /></p>
+                </section>
+                <section>
+                    <label>Email:</label>
+                    <p><input type='email' id='iemail' required /></p>
+                </section>
+                <br />
+                <label>Message:</label>
+                <p class='text'><textarea id='imsg' required></textarea></p>
+                <div><input type='submit' value='Submit' /></div>
+                <div id='response'></div>
+            </fieldset>
+        </form>
+    </body>
+</html>

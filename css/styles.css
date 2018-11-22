@@ -1,0 +1,85 @@
+*, html{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 1.5em;
+}
+body{
+    font-family: "Lucida Console", Monaco, monospace;
+}
+form{
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px #ccc;
+    border-radius: 2px;
+}
+label{
+    height: 2.5em;
+    display: inline-block;
+    line-height: 2.5em;
+}
+fieldset{
+    padding: 1em;
+    border: none;
+}
+input[type=text],
+input[type=email]{
+    background-color: #eee;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    height: 2.5em;
+    width: 100%;
+}
+textarea{
+    background-color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    width: 100%;
+    height: 15em;
+}
+div{
+    text-align: right;
+    height: 2em;
+    padding: 1em;
+}
+input[type=submit]{
+    background-color: #3399ff;
+    border-radius: 2px;
+    border: 1px solid #3399ff;
+    padding: 0.5em;
+    color: white;
+    width: 10em;
+    cursor: pointer;
+}
+#response{
+    height: 1em;
+}
+#iemail-error,
+#iname-error,
+#imsg-error{
+	position: fixed;
+	color: red;
+	bottom: 0;
+	left: 20px;
+	background-color: white;
+}
+@media only screen and (min-width: 600px){
+    p.text{
+        max-width: 100%;
+    }
+    section{
+        width: 48%;
+        display: inline-block;
+    }
+    input[type=text],
+    input[type=email]{ 
+        width: 80%;
+    } 
+    form{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }            
+}

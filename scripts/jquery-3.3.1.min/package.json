@@ -1,0 +1,11 @@
+{
+  "name": "jquery-3.3.1.min",
+  "version": "3.3.1",
+  "description": "jQuery as usual, just a local file",
+  "main": "jquery-3.3.1.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
