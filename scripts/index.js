@@ -33,7 +33,7 @@ http.createServer(function(request, response){
 			response.end(css);			
 		});		
 	}
-	else if(path == dJSPath){ // Serve the JSON resource via HTTP
+	else if(path == dJSPath){ // Serve the JavaScript resource via HTTP
 		fileSystem.readFile(jsFilePath, 'UTF8', function(error, js){
 			sHeader(response);
 			response.writeHead(200, jsHeader);
