@@ -9,9 +9,10 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>        
         <title>Rebel Node.js Form</title>
         <link href='css/styles.css' rel='stylesheet' text='text/css' />
-        <script src='scripts/jquery-3.3.1.min.js'></script>
-        <script src='scripts/jquery-validation-1.17.0.js'></script>
-        <script src='scripts/forms.js'></script>
+        <script src='scripts/jquery-3.3.1.min/jquery-3.3.1.min.js'></script>
+        <script src='scripts/jquery-validation-1.17.0/jquery-validation-1.17.0.js'></script>
+        <script src='scripts/forms/forms.js'></script>
+        <script src='scripts/main.js'></script>
     </head>
     <body>
         <form id='form'>
